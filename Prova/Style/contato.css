@@ -1,0 +1,65 @@
+html,
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDD0;
+
+}
+
+
+.topo {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #fba728;
+    margin-bottom: 200px;
+}
+
+.topo ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+ 
+}
+
+.topo ul li {
+    position: relative;
+    flex: 1;
+    text-align: left;
+    margin-left: 150px;
+
+}
+
+.topo ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black    ;
+    padding: 10px;
+}
+
+.topo ul li a:hover {
+    color: white;
+}
+
+
+.containerInicial{
+    width: 100%;
+    height: 620px;
+    background-image: url(Img/restaurante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 60%; 
+ }
